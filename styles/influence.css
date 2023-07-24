@@ -1,0 +1,31 @@
+/* header related styles */
+/* nav related styles */
+
+nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: rgb(10, 8, 8);
+      
+}
+.nav-title {
+    font-size: 20px;
+}
+.nav-text ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-text li {
+ list-style: none;
+ font-size: 15px;
+ font-weight: bold;
+}
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        
+    }
+    
+}
